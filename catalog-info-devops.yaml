@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: devops-team
+  description: Platform Engineering Team
+spec:
+  type: team
+  profile:
+    displayName: Platform Team
+    email: platform-team@example.com
+    picture: https://example.com/platform-team.png
+
+  parent: engineering
+  children:
+    - devops-team
+    - sre-team
+
+  members:
+    - john.doe
+    - jane.smith
