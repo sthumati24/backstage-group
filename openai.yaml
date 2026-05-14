@@ -1,0 +1,4 @@
+spec:
+  type: openapi
+  definition:
+    $text: ./openapi.yaml
