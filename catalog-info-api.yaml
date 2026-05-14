@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: team-platform
   definition:
-    $text: https://petstore3.swagger.io/api/v3/openapi.json
+    $text: ./swagger.yaml
